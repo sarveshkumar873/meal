@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Meal App</title>
+         <!-- fontawsome link-->
+        <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+        <!-- bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <link rel="stylesheet" href = "home2.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header-box">
+                <a id="home-btn" href="index.html">Meal App</a>
+                <!-- <div id="home-btn">
+                    <h5>Meal App</h5>
+                </div> -->
+                <!-- <a id="fav-btn">favourite</a> -->
+                <button id="fav-btn" onclick="favmeallist()">favourite</button>
+                <!-- <div id="fav-btn">
+                    <h5>favourite</h5>
+                </div> -->
+                <div id="fav-no">
+                    <h5>0</h5>
+                </div>
+    
+            </div>
+            <div id="search-box">
+                <h1 id="p1">Finding Meals for you</h1>
+                <!-- <div ></div> -->
+                <div onkeyup="searchmeal()" id="p2">
+                    <input placeholder="search your meal here" id = "add-task" data-helloword="asdasdas">
+                </div>
+                <!-- <div><h1>your search result</h1></h1></div> -->
+    
+            </div>
+            
+
+        </div>
+        <div id="cnt1">
+            <h1 id="srrs">Search, name of the meal</h1>
+            <div id = "main" class="d-flex justify-content-around container flex-wrap mt-5"></div>
+        </div>
+        
+        
+        <script src="home3.js"></script>
+
+
+    </body>
+</html>

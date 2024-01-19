@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+#container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    height: 50%;
+
+}
+#cnt1{
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    display: flex;
+    width: 100%;
+    
+}
+#header-box{
+    display: flex;
+    background-color: darkred;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+}
+
+#search-box{
+    display: flex;
+    flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+    background-color: rgb(39, 36, 36);
+    width: 100%;
+    height: 75%;
+    align-items: center;
+    margin: 2%;
+    margin-left: 0%;
+
+}
+#search-box #p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    font-size: 300%;
+    width: 100%;
+}
+#search-box #p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+#search-box #p2 #add-task{
+    width: 60%;
+    height: 60%;
+    border-radius: 15px;
+    font-size: 200%;
+    padding: 2%;
+}
+#header-box #home-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    background-color: rgb(70, 14, 14);
+    border-radius: 5%;
+    margin: 1%;
+    font-size: 160%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+
+}
+h5{
+    margin: 2px;
+}
+#header-box #fav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    background-color: rgb(70, 14, 14);
+    border-radius: 5%;
+    margin: 1%;
+    font-size: 160%;
+    margin-right: 0%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+
+}
+#header-box #fav-no{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    height: 60%;
+    background-color: rgb(190, 110, 110);
+    border-radius: 5%;
+    padding-top: 2px;
+    font-size: 180%;
+    margin-right: 0%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-weight: bold;
+
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color:#23292e;
+    color: white;
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+
+/* header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+/* meal card */
+#card {
+    background-color: rgb(70, 14, 14);
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 50%;
+    height: 70%;
+    width: 80%;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(228, 210, 210);
+}
+/* meal details container */
+
+
+
+
+
+
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#212529 ;
+}
+#innerbox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 1150px;
+    /* border: 3px solid black; */
+    
+}
+#innerbox1 #innerheader{
+    background-color: darkred;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#innerbox1 #media{
+    border-left: 10px solid darkred;
+    border-right: 10px solid darkred;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 110, 110);
+
+}
+#innerbox1 #media img{
+    height: 300px;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20px;
+    margin-left: 5%;
+
+}
+#innerbox1 #media iframe{
+    height: 300px;
+    width: 50%;
+    margin: 40px;
+    border-radius: 20px;
+    margin-left: 5%;
+
+}
+#innerbox1 #ingred{
+    border-left: 10px solid darkred;
+    border-right: 10px solid darkred;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 110, 110);
+    
+}
+#innerbox1 #ingred h6{
+    font-size: 30px;
+}
+#innerbox1 #details{
+    border-left: 10px solid darkred;
+    border-right: 10px solid darkred;
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+    background-color: rgb(190, 110, 110);
+    padding: 2%;
+    height: auto;
+}
+#innerbox1 #ingno{
+    border-left: 10px solid darkred;
+    border-right: 10px solid darkred;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 110, 110);
+    width: 100%;
+    padding: 2%;
+    margin-top: -20px;
+    height: 130px;
+   
+}
+#innerbox1 #roote{
+    height: 50px;
+    width: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: darkred;
+}
